@@ -7,18 +7,45 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Music Is Fun!</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <form class="form-inline" onsubmit="app.controllers.itunesCtrl.getMusic(event)">
-        <!--DO NOT MODIFY THE ID OR ONCLICK ATTRIBUTES IN THIS FORM-->
-        <div class="form-group">
-            <input type="text" class="form-control" name="artist" placeholder="Artist Name" />
-            <button type="submit" class="btn btn-primary" id="get-music-button">Get Music</button>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-4">
+                <div>
+                    <img id="cloud" src="cloud.png">
+                </div>
+            </div>
+            <div class="col-xs-4">
+            </div>
+            <div class="col-xs-4">
+            </div>
+
         </div>
-    </form>
-    <div id="songs">
+        <div class="row">
+            <div class="col-xs-12">
+                <div>
+                    <p class="project-title">MUSIC IS FUN!</p><img id="notes" src="notes.png">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <form class="form-inline" onsubmit="app.controllers.itunesCtrl.getMusic(event)">
+                    <!--DO NOT MODIFY THE ID OR ONCLICK ATTRIBUTES IN THIS FORM-->
+                    <div class="form-group form-group-lg" id="input">
+                        <input type="text" class="form-control input-lg" name="artist" placeholder="Artist Name" />
+                        <button type="submit" class="btn btn-primary btn-lg" id="get-music-button"> Get Music    <span class="glyphicon glyphicon-music" aria-hidden="true"></span></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="song-list">
 
     </div>
     <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>

@@ -1,0 +1,72 @@
+.card{
+    background-color:lightblue;
+}
+
+.card-title{
+    font-size:2rem;
+}
+
+#audio-player{
+    width:100%;
+    border-width:0px 5px 5px 5px;
+    border-style:solid;
+    border-color:grey;
+}
+
+.song-title{
+    font-weight:bold;
+}
+
+#input{
+    display:flex;
+    justify-content:center;
+    margin-top:20vh;
+    margin-bottom:20vh;
+  
+}
+
+.card{
+    border:5px solid grey;
+    height:35vh;
+    text-align:center;
+}
+
+.item{
+    margin-top:5vh;
+}
+
+.card-img-top{
+   width: 50%;
+   height:50%;
+}
+
+body{
+    background-image:url('http://bgfons.com/uploads/light/light_texture2224.jpg');
+    background-size:cover;
+    background-attachment:fixed;
+    font-family: 'Kaushan Script', cursive;
+    color:black;
+}
+
+.project-title{
+    text-align:center;
+    margin-top:0vh;
+    padding-top:5vh;
+    font-size:10rem;
+    color:white;
+    text-shadow:10px 10px 20px black;
+}
+
+.artist{
+    font-weight:bold;
+}
+
+#cloud {
+    margin-top:5vh;
+}
+
+#notes{
+    position:absolute;
+    top:-16vh;
+    right:6vw;
+}
