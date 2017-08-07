@@ -27,7 +27,7 @@
 
 .card{
     border:5px solid grey;
-    height:35vh;
+    height:40vh;
     text-align:center;
 }
 
@@ -70,3 +70,4 @@ body{
     top:-16vh;
     right:6vw;
 }
+
